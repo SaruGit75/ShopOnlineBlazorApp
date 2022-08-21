@@ -7,7 +7,7 @@ public class CartItemDto
     public int CartId { get; set; }
     public string ProductName { get; set; }
     public string ProductDescription { get; set; }
-    public int ProductImageURL { get; set; }
+    public string ProductImageURL { get; set; }
     public decimal Price { get; set; }
     public decimal TotalPrice { get; set; }
     public int Qty { get; set; }
